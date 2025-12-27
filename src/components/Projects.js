@@ -19,12 +19,13 @@ export const Projects = () => {
       title: "Todo List",
       description: "List & conquer daily tasks",
       imgUrl: projImg4,
-      link: "https://example.com/project2",
+      link: "https://todo-app-react-virid-six.vercel.app/",
     },
     {
-      title: "User Managment",
-      description: "Used to manage  user data",
+      title: "Students Managment",
+      description: "Used to manage student data",
       imgUrl: projImg5,
+      link:"https://student-managment-ts.onrender.com/"
     },
   ];
 
@@ -33,30 +34,48 @@ export const Projects = () => {
       title: "Netflix-Clone",
       description: "CheckOut latest series",
       imgUrl: projImg7,
+      link:"https://netflix-app-react-nine.vercel.app/"
     },
+    {
+      title: "Note-Pad application",
+      description: "TO note valuable data and pin it on top",
+      imgUrl: projImg3,
+      link:"https://note-app-frontend-1.onrender.com/"
+    },
+    {
+      title: "User Managment",
+      description: "Used to manage  user data",
+      imgUrl: projImg5,
+      link:"https://user-management-fs1f.onrender.com/"
+    },
+     
     {
       title: "OLX-Clone",
       description: "To sell and buy things",
       imgUrl: projImg6,
-    },
-    {
-      title: "Students Managment",
-      description: "Design & Development",
-      imgUrl: projImg2,
     }
   ];
 
   const projects3 = [
     {
-      title: "Note-Pad application",
+      title: "Nutro application",
       description: "TO note valuable data and pin it on top",
       imgUrl: projImg3,
+      link:"https://nutro-frontend.vercel.app/user/home/"
     },
     {
       title: "Mobile E-commerce",
       description: "User interactive Web to purchase phone",
       imgUrl: projImg8,
+      link: "https://coza-store-b3wt.onrender.com/"
+    },
+    {
+      title: "lango-leaf",
+      description: "User interactive Web to purchase phone",
+      imgUrl: projImg8,
+      link: "https://lango-leaf.onrender.com/",
     }
+    
   ];
 
   return (
